@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juno Gong | Resume</title>
+    <meta property="og:title" content="Juno Gong - Resume">
+    <meta property="og:description" content="Software Engineer Resume">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #525659; /* Matches most PDF viewer backgrounds */
+        }
+        #pdf-container {
+            width: 100%;
+            height: 100vh;
+        }
+        .fallback {
+            padding: 50px 20px;
+            text-align: center;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="pdf-container">
+        <object data="JunoGong_Resume.pdf" type="application/pdf" width="100%" height="100%">
+            <div class="fallback">
+                <h2>Resume: Juno Gong</h2>
+                <p>Your browser doesn't support embedded PDFs, but you can view it below:</p>
+                <a href="JunoGong_Resume.pdf" target="_blank" class="btn">
+                    View / Download Resume
+                </a>
+            </div>
+        </object>
+    </div>
+
+</body>
+</html>
